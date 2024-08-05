@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Silas Pacheco</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Silas Pacheco</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="about">
+    <p class="section__text__p1__about">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>3+ years<span>Backend Development</span></p>
+            <p>1 year<span>Scrum Master</span></p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon">
+            <h3>Education</h3>
+            <p>B.A. Anthropology
+            <p>Bachelors Degree</p><span></span></p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            I read somewhere that upon looking back on his life, the philosopher William James remarked, "What surprised me most in life is that I did not see myself as the same person and that in my lifetime I lived many lives." I'm not much of a pragmatist, but this quote has always seemed exceptionally prescient to me as it perfectly describes my approach to work for most of my adult life. One of the unexpected consequences of living under late capitalism is that we all get to embody the spirit of that quote and have several different jobs and careers throughout our working lives. I've been fortunate enough to learn from mentors in several other fields and disciplines, from working in museums as an archaeologist to working in law to my time as a primary school teacher (to name only a few). However, of all of the disparate career paths I've had, working as a software developer is the one career path that has been the most intellectually satisfying and consistently challenging.
+          </p>
+
+            <p>
+            It's the only career I've had where it feels as though there is no end to the amount I can learn. There are always new technologies on the horizon to familiarize myself with, and there's always room to refine and expand on the stuff you already know. The most important skill I've developed is improving my ability to learn, quickly and efficiently. What you'll see below are just a few examples of the experiences I've had working as a developer, along with some of the projects I've worked on in my spare time in my ongoing quest to become a better software engineer.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src>
+  </section>
+
+    <p class="section__text__p1">Get In Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:silasfpacheco@gmail.com">silasfpacheco@gmail.com</a>
+        </p>
+      </div>
+      <div class="contact-info-container" <img src="./assets/linkedin.png" alt="LinkedIn icon"
+        class="icon contact-icon"/>
+      <p><a href="mailto:silasfpacheco@gmail.com">LinkedIn</a></p>
+    </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169;</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
